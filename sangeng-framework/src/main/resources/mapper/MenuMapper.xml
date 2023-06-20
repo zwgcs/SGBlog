@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.sangeng.mapper.MenuMapper">
+
+
+    <resultMap id="map1" type="com.sangeng.domain.vo.MenuVo">
+        <id property="id" column="id" jdbcType="BIGINT"/>
+        <result property="menuName" column="menu_name" jdbcType="VARCHAR"/>
+        <result property="orderNum" column="order_num" jdbcType="INTEGER"/>
+        <result property="path" column="path" jdbcType="VARCHAR"/>
+        <result property="component" column="component" jdbcType="VARCHAR"/>
+        <result property="visible" column="visible" jdbcType="CHAR"/>
+        <result property="status" column="status" jdbcType="CHAR"/>
+        <result property="perms" column="perms" jdbcType="VARCHAR"/>
+        <result property="icon" column="icon" jdbcType="VARCHAR"/>
+        <result property="isFrame" column="is_frame"></result>
+        <result property="menuType" column="menu_type"></result>
+        <result property="createTime" column="create_time" jdbcType="TIMESTAMP"/>
+        <collection property="children" column="id" select="menuList2"/>
+    </resultMap>
+
+    <resultMap id="map2" type="com.sangeng.domain.vo.MenuVo">
+            <id property="id" column="id" jdbcType="BIGINT"/>
+            <result property="menuName" column="menu_name" jdbcType="VARCHAR"/>
+            <result property="orderNum" column="order_num" jdbcType="INTEGER"/>
+            <result property="path" column="path" jdbcType="VARCHAR"/>
+            <result property="component" column="component" jdbcType="VARCHAR"/>
+            <result property="visible" column="visible" jdbcType="CHAR"/>
+            <result property="status" column="status" jdbcType="CHAR"/>
+            <result property="perms" column="perms" jdbcType="VARCHAR"/>
+            <result property="icon" column="icon" jdbcType="VARCHAR"/>
+            <result property="isFrame" column="is_frame"></result>
+            <result property="menuType" column="menu_type"></result>
+            <result property="createTime" column="create_time" jdbcType="TIMESTAMP"/>
+            <collection property="children" column="id" select="menuList2"/>
+    </resultMap>
+
+    <resultMap id="map3" type="com.sangeng.domain.vo.MenuVo1">
+        <id property="id" column="id" jdbcType="BIGINT"/>
+        <result property="label" column="menu_name"></result>
+        <result property="parentId" column="parent_id"></result>
+        <collection property="children" column="id" select="menuList4"/>
+    </resultMap>
+
+    <resultMap id="map4" type="com.sangeng.domain.vo.MenuVo1">
+        <id property="id" column="id" jdbcType="BIGINT"/>
+        <result property="label" column="menu_name"></result>
+        <result property="parentId" column="parent_id"></result>
+        <collection property="children" column="id" select="menuList4"/>
+    </resultMap>
+
+
+    <select id="menuList1" resultMap="map1">
+        select id,menu_name,order_num,path,component,visible,status,perms,icon,create_time,parent_id,is_frame,menu_type
+        from sys_menu
+        where id = #{menuId}
+        and menu_type in ('M','C')
+        and status =0 and del_flag = 0
+        order by parent_id,order_num asc
+    </select>
+
+
+    <select id="menuList2" resultMap="map2">
+        select id,menu_name,order_num,path,component,visible,status,perms,icon,icon,create_time,is_frame,menu_type
+        from sys_menu
+        where parent_id = #{menuParentId}
+        and menu_type in ('M','C')
+        and status =0 and del_flag = 0
+        order by parent_id,order_num asc
+    </select>
+
+    <select id="menuList3" resultMap="map3">
+        select id,menu_name,parent_id
+        from sys_menu
+        where id = #{menuId}
+        and del_flag = 0
+    </select>
+
+    <select id="menuList4" resultMap="map4">
+        select id,menu_name,parent_id
+        from sys_menu
+        where parent_id = #{menuParentId}
+        and del_flag = 0
+        order by parent_id ,order_num
+    </select>
+</mapper>

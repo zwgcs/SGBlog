@@ -1,0 +1,540 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="sangeng-blog:jar" />
+    </artifacts-to-build>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="4b4e43eb-5a9b-46aa-a97e-99ed9af80b5d" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="AnnotationType" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$PROJECT_DIR$/../maven/apache-maven-3.6.3" />
+        <option name="userSettingsFile" value="D:\Java\maven\apache-maven-3.6.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="skipTests" value="true" />
+  </component>
+  <component name="ProjectId" id="2N29B4dkj0wpAWHvdIUlxNshydg" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/Java/SGBlog/sangeng-framework",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "project.propVCSSupport.CommitDialog",
+    "spring.configuration.checksum": "311887cd82cda19d116d938d36ebdeca",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.sangeng.service.impl" />
+      <recent name="com.sangeng.domain.dto" />
+      <recent name="com.sangeng.service" />
+      <recent name="com.sangeng.filter" />
+      <recent name="com.sangeng.domain.vo" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Java\SGBlog\sangeng-framework" />
+      <recent name="D:\Java\SGBlog\sangeng-blog" />
+      <recent name="D:\Java\SGBlog\sangeng-admin" />
+      <recent name="D:\Java\SGBlog\sangeng-framework\src\main\java\com\sangeng" />
+      <recent name="D:\Java\SGBlog\sangeng-admin\src\main\java\com\sangeng\service" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Java\SGBlog\sangeng-framework\src\main\resources\mapper" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.sangeng" />
+      <recent name="com.sangeng.domain" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.sangeng" />
+      <recent name="com.sangeng.domain.dto" />
+      <recent name="com.sangeng.service.impl" />
+      <recent name="com.sangeng.service" />
+      <recent name="com.sangeng.exception" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.Test.test03">
+    <configuration name="Test.test02" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="sangeng-blog" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sangeng.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.sangeng" />
+      <option name="MAIN_CLASS_NAME" value="com.sangeng.Test" />
+      <option name="METHOD_NAME" value="test02" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test.test03" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="sangeng-blog" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sangeng.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.sangeng" />
+      <option name="MAIN_CLASS_NAME" value="com.sangeng.Test" />
+      <option name="METHOD_NAME" value="test03" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test.test04" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="sangeng-admin" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sangeng.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.sangeng" />
+      <option name="MAIN_CLASS_NAME" value="com.sangeng.Test" />
+      <option name="METHOD_NAME" value="test04" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SanGengBlogApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="sangeng-admin" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.sangeng.SanGengBlogApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sangeng.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SanGengBlogApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="sangeng-blog" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.sangeng.SanGengBlogApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sangeng.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SanGengBlogApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="sangeng-admin" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sangeng.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.sangeng.SanGengBlogApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.Test.test03" />
+      <item itemvalue="JUnit.Test.test02" />
+      <item itemvalue="JUnit.Test.test04" />
+      <item itemvalue="Spring Boot.SanGengBlogApplication" />
+      <item itemvalue="Spring Boot.SanGengBlogApplication (1)" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.Test.test03" />
+        <item itemvalue="JUnit.Test.test02" />
+        <item itemvalue="JUnit.Test.test04" />
+        <item itemvalue="Spring Boot.SanGengBlogApplication" />
+        <item itemvalue="Spring Boot.SanGengBlogApplication (1)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SpringBootOptions">
+    <option name="showAdditionalConfigNotification" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4b4e43eb-5a9b-46aa-a97e-99ed9af80b5d" name="Changes" comment="" />
+      <created>1678851171194</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1678851171194</updated>
+      <workItem from="1678851172552" duration="2573000" />
+      <workItem from="1678853890554" duration="2789000" />
+      <workItem from="1678856729725" duration="183000" />
+      <workItem from="1678856935296" duration="475000" />
+      <workItem from="1678857449314" duration="36000" />
+      <workItem from="1678857670646" duration="1304000" />
+      <workItem from="1678860596652" duration="1760000" />
+      <workItem from="1678862416181" duration="369000" />
+      <workItem from="1678862805992" duration="1693000" />
+      <workItem from="1678872824542" duration="6000" />
+      <workItem from="1678933623762" duration="10000" />
+      <workItem from="1678955357570" duration="3624000" />
+      <workItem from="1678980919685" duration="983000" />
+      <workItem from="1678985898841" duration="113000" />
+      <workItem from="1679041510156" duration="1394000" />
+      <workItem from="1679044842411" duration="1833000" />
+      <workItem from="1679058458610" duration="14763000" />
+      <workItem from="1679141023423" duration="1617000" />
+      <workItem from="1679142837286" duration="13136000" />
+      <workItem from="1679217449213" duration="19000" />
+      <workItem from="1679217510379" duration="1000" />
+      <workItem from="1679221060405" duration="235000" />
+      <workItem from="1679222122687" duration="289000" />
+      <workItem from="1679222479216" duration="50000" />
+      <workItem from="1680166334611" duration="64000" />
+      <workItem from="1680192242772" duration="641000" />
+      <workItem from="1680219086747" duration="102000" />
+      <workItem from="1680219235955" duration="61000" />
+      <workItem from="1680219327449" duration="7000" />
+      <workItem from="1680219367797" duration="32000" />
+      <workItem from="1680219494819" duration="73000" />
+      <workItem from="1680219575568" duration="1063000" />
+      <workItem from="1680220693730" duration="222000" />
+      <workItem from="1680220985330" duration="224000" />
+      <workItem from="1680221242513" duration="88000" />
+      <workItem from="1680221404194" duration="2867000" />
+      <workItem from="1680224358351" duration="171000" />
+      <workItem from="1680224676494" duration="37000" />
+      <workItem from="1680224770182" duration="32000" />
+      <workItem from="1680224844379" duration="924000" />
+      <workItem from="1680225815635" duration="377000" />
+      <workItem from="1680226233190" duration="37000" />
+      <workItem from="1680226289363" duration="787000" />
+      <workItem from="1680227150787" duration="315000" />
+      <workItem from="1680227506451" duration="3823000" />
+      <workItem from="1680231382132" duration="7525000" />
+      <workItem from="1680239004830" duration="360000" />
+      <workItem from="1680263533215" duration="7203000" />
+      <workItem from="1680272329625" duration="3957000" />
+      <workItem from="1680280104548" duration="2099000" />
+      <workItem from="1680282529083" duration="961000" />
+      <workItem from="1680283525291" duration="650000" />
+      <workItem from="1680360947783" duration="3532000" />
+      <workItem from="1680366467816" duration="1716000" />
+      <workItem from="1680368229691" duration="991000" />
+      <workItem from="1680409694556" duration="20801000" />
+      <workItem from="1680452694998" duration="291000" />
+      <workItem from="1680453009736" duration="1027000" />
+      <workItem from="1680694325933" duration="708000" />
+      <workItem from="1680697344419" duration="34000" />
+      <workItem from="1680701459453" duration="4645000" />
+      <workItem from="1680706181954" duration="10977000" />
+      <workItem from="1680740933279" duration="41000" />
+      <workItem from="1680741019173" duration="896000" />
+      <workItem from="1680747051460" duration="322000" />
+      <workItem from="1680747465552" duration="2293000" />
+      <workItem from="1680750103790" duration="769000" />
+      <workItem from="1680751209674" duration="1945000" />
+      <workItem from="1680755526541" duration="3094000" />
+      <workItem from="1680767873823" duration="5304000" />
+      <workItem from="1680781492327" duration="2696000" />
+      <workItem from="1680786046355" duration="14727000" />
+      <workItem from="1680826949327" duration="3146000" />
+      <workItem from="1680833544149" duration="631000" />
+      <workItem from="1680845802314" duration="445000" />
+      <workItem from="1680940394763" duration="5086000" />
+      <workItem from="1680957592499" duration="18739000" />
+      <workItem from="1681010442343" duration="171000" />
+      <workItem from="1681039525350" duration="11919000" />
+      <workItem from="1681087903756" duration="2846000" />
+      <workItem from="1681096054432" duration="357000" />
+      <workItem from="1681099943053" duration="397000" />
+      <workItem from="1681102664549" duration="1393000" />
+      <workItem from="1681106053310" duration="4407000" />
+      <workItem from="1681115660237" duration="631000" />
+      <workItem from="1681125751979" duration="7738000" />
+      <workItem from="1681142742996" duration="6395000" />
+      <workItem from="1681173908716" duration="462000" />
+      <workItem from="1681174659903" duration="3099000" />
+      <workItem from="1681190937276" duration="2194000" />
+      <workItem from="1681202172393" duration="2731000" />
+      <workItem from="1681208467027" duration="6624000" />
+      <workItem from="1681222499696" duration="9450000" />
+      <workItem from="1681262582499" duration="1858000" />
+      <workItem from="1681295364390" duration="4534000" />
+      <workItem from="1681300677950" duration="4360000" />
+      <workItem from="1681307716589" duration="10214000" />
+      <workItem from="1681318927195" duration="52000" />
+      <workItem from="1681318989000" duration="5820000" />
+      <workItem from="1681351812989" duration="6171000" />
+      <workItem from="1681358868791" duration="5906000" />
+      <workItem from="1681372312324" duration="4513000" />
+      <workItem from="1681381922668" duration="913000" />
+      <workItem from="1681390303822" duration="758000" />
+      <workItem from="1681445133822" duration="5304000" />
+      <workItem from="1681462832772" duration="3106000" />
+      <workItem from="1681466551650" duration="8009000" />
+      <workItem from="1681478835748" duration="4309000" />
+      <workItem from="1681483657321" duration="3172000" />
+      <workItem from="1681521435768" duration="839000" />
+      <workItem from="1681524312310" duration="5932000" />
+      <workItem from="1681532321271" duration="4235000" />
+      <workItem from="1681556411232" duration="15967000" />
+      <workItem from="1681624919416" duration="2783000" />
+      <workItem from="1681643267574" duration="1424000" />
+      <workItem from="1681644712249" duration="18695000" />
+      <workItem from="1681688360267" duration="6907000" />
+      <workItem from="1681706433142" duration="952000" />
+      <workItem from="1681707748140" duration="9333000" />
+      <workItem from="1681717698820" duration="6054000" />
+      <workItem from="1681728520066" duration="1448000" />
+      <workItem from="1681738230182" duration="14295000" />
+      <workItem from="1681754173676" duration="457000" />
+      <workItem from="1681787280235" duration="3363000" />
+      <workItem from="1681815427344" duration="3690000" />
+      <workItem from="1681826625880" duration="8781000" />
+      <workItem from="1681861543578" duration="4373000" />
+      <workItem from="1681865976493" duration="851000" />
+      <workItem from="1681866853481" duration="2451000" />
+      <workItem from="1681891438912" duration="1443000" />
+      <workItem from="1681913321836" duration="3490000" />
+      <workItem from="1681956536229" duration="1833000" />
+      <workItem from="1681965830486" duration="1192000" />
+      <workItem from="1681977078647" duration="1860000" />
+      <workItem from="1681996131689" duration="1057000" />
+      <workItem from="1681998891435" duration="3653000" />
+      <workItem from="1682164219467" duration="4855000" />
+      <workItem from="1682170806629" duration="901000" />
+      <workItem from="1682179623869" duration="1325000" />
+      <workItem from="1682188854809" duration="15541000" />
+      <workItem from="1682247761335" duration="2969000" />
+      <workItem from="1682320263314" duration="1506000" />
+      <workItem from="1682323480759" duration="594000" />
+      <workItem from="1682386893827" duration="1062000" />
+      <workItem from="1682389451572" duration="2534000" />
+      <workItem from="1682418538970" duration="3421000" />
+      <workItem from="1682426455326" duration="410000" />
+      <workItem from="1682426882608" duration="1365000" />
+      <workItem from="1682431345758" duration="17619000" />
+      <workItem from="1682490555588" duration="1325000" />
+      <workItem from="1682492466381" duration="1519000" />
+      <workItem from="1682500498011" duration="5940000" />
+      <workItem from="1682510240093" duration="2450000" />
+      <workItem from="1682517896991" duration="2960000" />
+      <workItem from="1682521908382" duration="1747000" />
+      <workItem from="1682584267978" duration="714000" />
+      <workItem from="1682585894744" duration="1007000" />
+      <workItem from="1682594057266" duration="1752000" />
+      <workItem from="1682606169497" duration="1415000" />
+      <workItem from="1682780458665" duration="3847000" />
+      <workItem from="1682814380722" duration="75000" />
+      <workItem from="1682872334007" duration="1408000" />
+      <workItem from="1682952997753" duration="146000" />
+      <workItem from="1683521600405" duration="863000" />
+      <workItem from="1683527174571" duration="1195000" />
+      <workItem from="1683905115730" duration="4999000" />
+      <workItem from="1683917724389" duration="1172000" />
+      <workItem from="1683918928746" duration="5634000" />
+      <workItem from="1683950582836" duration="100000" />
+      <workItem from="1683950730432" duration="7000" />
+      <workItem from="1683950881135" duration="6781000" />
+      <workItem from="1684198712267" duration="1760000" />
+      <workItem from="1684214647735" duration="1944000" />
+      <workItem from="1684313375470" duration="12479000" />
+      <workItem from="1684377633488" duration="1135000" />
+      <workItem from="1684470589652" duration="6844000" />
+      <workItem from="1684507411328" duration="1936000" />
+      <workItem from="1684643557338" duration="715000" />
+      <workItem from="1684723551289" duration="5000" />
+      <workItem from="1684723589658" duration="18000" />
+      <workItem from="1684729858031" duration="3281000" />
+      <workItem from="1685324488685" duration="2860000" />
+      <workItem from="1685329502267" duration="175000" />
+      <workItem from="1685329735075" duration="1575000" />
+      <workItem from="1685336781489" duration="3726000" />
+      <workItem from="1685452388977" duration="609000" />
+      <workItem from="1685462108996" duration="1174000" />
+      <workItem from="1685466145908" duration="1113000" />
+      <workItem from="1685468334698" duration="952000" />
+      <workItem from="1685496193093" duration="1314000" />
+      <workItem from="1685508845318" duration="1954000" />
+      <workItem from="1685646378993" duration="241000" />
+      <workItem from="1685717867781" duration="204000" />
+      <workItem from="1685816961759" duration="1484000" />
+      <workItem from="1685967427503" duration="647000" />
+      <workItem from="1685979376815" duration="1198000" />
+      <workItem from="1686011783337" duration="599000" />
+      <workItem from="1686017067825" duration="1196000" />
+      <workItem from="1686031029626" duration="314000" />
+      <workItem from="1686042471333" duration="1223000" />
+      <workItem from="1686049854635" duration="966000" />
+      <workItem from="1686051468555" duration="335000" />
+      <workItem from="1686052222779" duration="581000" />
+      <workItem from="1686068548519" duration="599000" />
+      <workItem from="1686214940171" duration="1646000" />
+      <workItem from="1686366234855" duration="69000" />
+      <workItem from="1686367226274" duration="729000" />
+      <workItem from="1687217433029" duration="4765000" />
+    </task>
+    <task id="LOCAL-00001" summary="master-01">
+      <created>1684471181081</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1684471181081</updated>
+    </task>
+    <task id="LOCAL-00002" summary="master-02">
+      <created>1684475955549</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1684475955549</updated>
+    </task>
+    <task id="LOCAL-00003" summary="master-03">
+      <created>1684476139342</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1684476139342</updated>
+    </task>
+    <task id="LOCAL-00004" summary="master-03">
+      <created>1687217608528</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1687217608528</updated>
+    </task>
+    <task id="LOCAL-00005" summary="master-03">
+      <created>1687219002393</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1687219002393</updated>
+    </task>
+    <task id="LOCAL-00006" summary="master-03">
+      <created>1687219267218</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1687219267218</updated>
+    </task>
+    <task id="LOCAL-00007" summary="master-03">
+      <created>1687219426054</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1687219426054</updated>
+    </task>
+    <task id="LOCAL-00008" summary="6_20删去敏感信息">
+      <created>1687221559658</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1687221559658</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="master-01" />
+    <MESSAGE value="master-02" />
+    <MESSAGE value="master-03" />
+    <MESSAGE value="6_20删去敏感信息" />
+    <option name="LAST_COMMIT_MESSAGE" value="6_20删去敏感信息" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/sangeng-admin/src/main/java/com/sangeng/service/impl/ArticleServiceImpl.java</url>
+          <line>76</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
